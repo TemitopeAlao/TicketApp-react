@@ -1,0 +1,82 @@
+:root {
+  --maxwidth: 1440px;
+  --container-pad: 24px;
+  --bg: #ffffff;
+  --muted: #666;
+  --card-shadow: 0 8px 24px rgba(15, 15, 15, 0.06);
+  --green: #16a34a;
+  --amber: #f59e0b;
+  --gray: #6b7280;
+}
+
+/* layout */
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: var(--bg);
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* center container */
+.container {
+  max-width: var(--maxwidth);
+  margin: 50px auto;
+  padding: var(--container-pad);
+}
+
+/* simple card */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: var(--card-shadow);
+  padding: 16px;
+}
+
+.neu-card {
+  background: #f0f4ff;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1),
+    -5px -5px 10px rgba(255, 255, 255, 0.6);
+}
+
+.neu-input {
+  border: none;
+  outline: none;
+  background: #f0f4ff;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.6);
+}
+
+.neu-btn {
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.neu-btn:hover {
+  transform: translateY(-1px);
+}
+
+.ticket-form,
+.ticket-card {
+  margin-bottom: 1.5rem;
+}
+
+button {
+  background: #e0e5ec;
+  border: none;
+  box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #ffffff;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:active {
+  box-shadow: inset 3px 3px 6px #b8b9be, inset -3px -3px 6px #ffffff;
+}
+button:focus,
+a:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 3px;
+}
