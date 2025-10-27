@@ -181,13 +181,13 @@ You can also register a new user via the signup form.
 
 ---
 
-## 📗 Accessibility & Responsive Design Checklist
+## 📗 Accessibility & Responsiveness
 
-✅ Semantic and descriptive HTML elements
-✅ Keyboard navigable forms and buttons
-✅ Color contrast above 4.5:1
-✅ Focus outlines for all interactive elements
-✅ Responsive grid layouts for mobile and tablet
+- Semantic and descriptive HTML elements
+- Keyboard navigable forms and buttons
+- Color contrast above 4.5:1
+- Focus outlines for all interactive elements
+- Responsive grid layouts for mobile and tablet
 
 ## 👩‍💻 Contributor
 
