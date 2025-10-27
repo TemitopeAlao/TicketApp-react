@@ -21,7 +21,7 @@ export default function Landing() {
         </div>
 
         <div className="wave-container">
-          <img src="./assets/wave-hero.svg" />
+          <img src="./assets/wave-hero.svg" alt="wave Hero" />
         </div>
       </section>
 
